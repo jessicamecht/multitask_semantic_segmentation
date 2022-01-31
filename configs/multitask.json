@@ -1,0 +1,18 @@
+{
+    "experiment_name": "deeplab_multitask",
+    "version_number": "no_fine_tune",
+    "model_type": "multitask",
+    "model": "deeplab",
+    "fine_tune": false,
+    "fine_tune_all": false,
+    "loss_type": "combine loss",
+    "learning_rate": 1e-3,
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 40
+}

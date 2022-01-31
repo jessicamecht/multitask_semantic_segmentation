@@ -1,0 +1,18 @@
+{
+    "experiment_name": "multitask_single_decoder",
+    "model_type": "multitask",
+    "model": "deeplab_single_decoder",
+    "loss_type": "combine loss",
+    "version_number": "02",
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 75,
+    "learning_rate": 1e-3,
+    "fine_tune": true,
+    "fine_tune_all": true
+}

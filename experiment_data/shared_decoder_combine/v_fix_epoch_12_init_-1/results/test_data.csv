@@ -1,0 +1,2 @@
+epoch,test_acc,test_loss,test_mIoU,test_rel_err,test_rms_err
+39.0,0.8493,1.7182,0.738,0.2127,4.6823

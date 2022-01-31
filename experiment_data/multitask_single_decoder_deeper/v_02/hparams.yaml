@@ -1,0 +1,16 @@
+batch_size: 28
+experiment_name: multitask_single_decoder_deeper
+fine_tune: true
+fine_tune_all: true
+img_size_h: 192
+img_size_w: 256
+learning_rate: 0.001
+loss_type: combine loss
+model: deeplab_single_decoder_deeper
+model_type: multitask
+num_epochs: 50
+num_workers: 8
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: '02'

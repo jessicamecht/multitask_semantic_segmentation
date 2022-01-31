@@ -1,0 +1,21 @@
+{
+    "experiment_name": "shared_decoder_em",
+    "version_number": "1.2",
+    "description": "3 steps instead of 5",
+    "model_type": "multitask",
+    "model": "deeplab_shared_decoder_deeper",
+    "loss_type": "naive loss",
+    "naive_alpha": 0.9,
+    "fine_tune": false,
+    "fine_tune_all": true,
+    "learning_rate": 1e-4,
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 16,
+    "num_workers": 8,
+    "num_epochs": 60,
+    "epoch_milestones": "0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57"
+}

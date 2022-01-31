@@ -1,0 +1,18 @@
+batch_size: 32
+description: 1 epoch
+epoch_milestones: '1'
+experiment_name: shared_decoder_em
+fine_tune: false
+fine_tune_all: true
+img_size_h: 192
+img_size_w: 256
+learning_rate: 0.001
+loss_type: add loss
+model: deeplab_shared_decoder
+model_type: multitask
+num_epochs: 40
+num_workers: 8
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: per_epoch_unfreeze_feat

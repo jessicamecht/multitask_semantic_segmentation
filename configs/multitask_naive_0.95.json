@@ -1,0 +1,19 @@
+{
+    "experiment_name": "deeplab_multitask_naive",
+    "version_number": "0.95",
+    "model_type": "multitask",
+    "model": "deeplab",
+    "loss_type": "naive loss",
+    "naive_alpha": 0.95,
+    "fine_tune": false,
+    "fine_tune_all": true,
+    "learning_rate": 1e-3,
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 40
+}

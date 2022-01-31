@@ -1,0 +1,20 @@
+{
+    "experiment_name": "shared_decoder_naive_nyu_transfer_full_size_baseline_split",
+    "version_number": "0.2",
+    "model_type": "multitask",
+    "model": "deeplab_shared_decoder",
+    "loss_type": "naive loss",
+    "dataset": "nyu",
+    "naive_alpha": 0.9,
+    "fine_tune": false,
+    "fine_tune_all": false,
+    "learning_rate": 1e-4,
+    "train_data": "./NYU_data/train_data_baseline.h5",
+    "val_data": "./NYU_data/test_data_baseline.h5",
+    "test_data": "./NYU_data/test_data_baseline.h5",
+    "img_size_h": 480,
+    "img_size_w": 640,
+    "batch_size": 7,
+    "num_workers": 4,
+    "num_epochs": 100
+}

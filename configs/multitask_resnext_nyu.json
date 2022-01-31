@@ -1,0 +1,21 @@
+{
+    "experiment_name": "default_semseg_nyu_resnext_multitask",
+    "version_number": "01",
+    "train_data": "./NYU_data/train_data_baseline_2.h5",
+    "val_data": "./NYU_data/test_data_baseline_2.h5",
+    "test_data": "./NYU_data/test_data_baseline_2.h5",
+    "batch_size": 4,
+    "num_workers": 1,
+    "num_epochs": 50,
+    "model_type": "multitask",
+    "model": "deeplab_shared_decoder",
+    "loss_type": "naive loss",
+    "naive_alpha": 0.9,
+    "fine_tune_all": true,
+    "learning_rate": 1e-4,
+    "img_size_h": 480,
+    "img_size_w": 640,
+    "dataset": "nyu",
+    "resnext": true,
+    "fine_tune": false
+}

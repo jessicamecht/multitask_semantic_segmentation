@@ -1,0 +1,15 @@
+batch_size: 16
+dataset: nyu
+experiment_name: seg_deeplab_nyu
+fine_tune: false
+fine_tune_all: true
+img_size_h: 240
+img_size_w: 320
+learning_rate: 0.0001
+loss_type: cross entropy
+model: deeplab
+model_type: segmentation
+num_epochs: 20
+num_workers: 8
+resnext: true
+version_number: resnext_baseline

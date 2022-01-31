@@ -1,0 +1,13 @@
+batch_size: 32
+experiment_name: multitask_single_encoder
+fine_tune: true
+fine_tune_all: true
+img_size_h: 192
+img_size_w: 256
+learning_rate: 0.001
+num_epochs: 75
+num_workers: 8
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: '01'

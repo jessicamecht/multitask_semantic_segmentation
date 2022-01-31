@@ -1,0 +1,17 @@
+{
+    "experiment_name": "default_depth",
+    "model_type": "depth",
+    "model": "deeplab",
+    "loss_type": "l1 loss",
+    "version_number": "01",
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 50,
+    "learning_rate": 1e-3,
+    "fine_tune": false
+}

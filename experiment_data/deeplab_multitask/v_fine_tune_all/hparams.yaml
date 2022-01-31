@@ -1,0 +1,16 @@
+batch_size: 32
+experiment_name: deeplab_multitask
+fine_tune: false
+fine_tune_all: true
+img_size_h: 192
+img_size_w: 256
+learning_rate: 0.001
+loss_type: combine loss
+model: deeplab
+model_type: multitask
+num_epochs: 40
+num_workers: 8
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: fine_tune_all

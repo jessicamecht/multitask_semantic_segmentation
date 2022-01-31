@@ -1,0 +1,19 @@
+{
+    "experiment_name": "unet_multitask_naive",
+    "version_number": "0.9",
+    "model_type": "multitask",
+    "model": "unet",
+    "naive_alpha": 0.9,
+    "fine_tune": false,
+    "fine_tune_all": true,
+    "loss_type": "naive loss",
+    "learning_rate": 1e-3,
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 16,
+    "num_workers": 8,
+    "num_epochs": 40
+}

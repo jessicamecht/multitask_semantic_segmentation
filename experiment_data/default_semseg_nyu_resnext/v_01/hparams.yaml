@@ -1,0 +1,17 @@
+batch_size: 7
+dataset: nyu
+experiment_name: default_semseg_nyu_resnext
+fine_tune: false
+img_size_h: 480
+img_size_w: 640
+learning_rate: 0.001
+loss_type: CrossEntropy
+model: deeplab
+model_type: segmentation
+num_epochs: 50
+num_workers: 8
+resnext: true
+test_data: ./NYU_data/test_data_baseline_2.h5
+train_data: ./NYU_data/train_data_baseline_2.h5
+val_data: ./NYU_data/test_data_baseline_2.h5
+version_number: '01'

@@ -1,0 +1,13 @@
+data/hypersim_data
+data/NYUv2
+data/NYUD_MT
+NYU_data
+__pycache__/
+
+*/*/checkpoints/
+
+*.ckpt
+*.mat
+*.h5
+*.zip
+*.tar.gz

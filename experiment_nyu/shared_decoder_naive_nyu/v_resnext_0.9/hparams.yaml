@@ -1,0 +1,19 @@
+batch_size: 4
+dataset: nyu
+experiment_name: shared_decoder_naive_nyu
+fine_tune: false
+fine_tune_all: true
+img_size_h: 480
+img_size_w: 640
+learning_rate: 0.0001
+loss_type: naive loss
+model: deeplab_shared_decoder
+model_type: multitask
+naive_alpha: 0.9
+num_epochs: 20
+num_workers: 8
+resnext: true
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: resnext_0.9

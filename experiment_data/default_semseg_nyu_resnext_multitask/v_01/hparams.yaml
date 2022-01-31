@@ -1,0 +1,19 @@
+batch_size: 4
+dataset: nyu
+experiment_name: default_semseg_nyu_resnext_multitask
+fine_tune: false
+fine_tune_all: true
+img_size_h: 480
+img_size_w: 640
+learning_rate: 0.0001
+loss_type: naive loss
+model: deeplab_shared_decoder
+model_type: multitask
+naive_alpha: 0.9
+num_epochs: 50
+num_workers: 1
+resnext: true
+test_data: ./NYU_data/test_data_baseline_2.h5
+train_data: ./NYU_data/train_data_baseline_2.h5
+val_data: ./NYU_data/test_data_baseline_2.h5
+version_number: '01'

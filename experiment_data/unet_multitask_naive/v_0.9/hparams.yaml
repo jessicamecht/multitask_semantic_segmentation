@@ -1,0 +1,17 @@
+batch_size: 16
+experiment_name: unet_multitask_naive
+fine_tune: false
+fine_tune_all: true
+img_size_h: 192
+img_size_w: 256
+learning_rate: 0.001
+loss_type: naive loss
+model: unet
+model_type: multitask
+naive_alpha: 0.9
+num_epochs: 40
+num_workers: 8
+test_data: ./data/test_data.csv
+train_data: ./data/train_data.csv
+val_data: ./data/val_data.csv
+version_number: '0.9'

@@ -1,0 +1,18 @@
+{
+    "experiment_name": "deeplab_seg",
+    "model_type": "segmentation",
+    "model": "deeplab",
+    "loss_type": "CrossEntropyLoss",
+    "version_number": "fine_tune_all",
+    "train_data": "./data/train_data.csv",
+    "val_data": "./data/val_data.csv",
+    "test_data": "./data/test_data.csv",
+    "img_size_h": 192,
+    "img_size_w": 256,
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 40,
+    "learning_rate": 1e-3,
+    "fine_tune": false,
+    "fine_tune_all": true
+}

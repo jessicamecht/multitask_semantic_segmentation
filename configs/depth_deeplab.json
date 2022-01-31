@@ -1,0 +1,17 @@
+{
+    "experiment_name": "depth_deeplab_nyu",
+    "model_type": "depth",
+    "model": "deeplab",
+    "loss_type": "l1 loss",
+    "version_number": "fine_tune_all",
+    "dataset": "nyu",
+    "resnext": true,
+    "img_size_h": 240,
+    "img_size_w": 320,
+    "batch_size": 16,
+    "num_workers": 8,
+    "num_epochs": 20,
+    "learning_rate": 1e-4,
+    "fine_tune": false,
+    "fine_tune_all": true
+}

@@ -1,0 +1,3 @@
+epoch,train_loss,val_acc,val_log10_err,val_loss,val_mIoU,val_rel_err,val_rms_err
+0.0,1.611,0.6448,0.1613,1.2991,0.4756,0.4928,7.8541
+1.0,1.1547,0.6982,0.1415,1.115,0.5357,0.4396,7.2264

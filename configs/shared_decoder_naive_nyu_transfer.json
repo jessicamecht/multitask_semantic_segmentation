@@ -1,0 +1,22 @@
+{
+    "experiment_name": "shared_decoder_naive_nyu_transfer",
+    "version_number": "0.2",
+    "model_type": "multitask",
+    "model": "deeplab_shared_decoder",
+    "loss_type": "naive loss",
+    "dataset": "nyu",
+    "naive_alpha": 0.9,
+    "fine_tune": true,
+    "fine_tune_all": true,
+    "learning_rate": 1e-4,
+    "train_data": "./NYU_data/train_data.h5",
+    "val_data": "./NYU_data/val_data.h5",
+    "test_data": "./NYU_data/test_data.h5",
+    "fine_tune_decoder": true,
+    "img_size_h": 240,
+    "img_size_w": 320,
+    "batch_size": 16,
+    "num_workers": 8,
+    "num_epochs": 100,
+    "checkpoint_path": "./experiment_data/shared_decoder_naive/v_0.9/checkpoints/epoch=44-step=16109.ckpt"
+}
